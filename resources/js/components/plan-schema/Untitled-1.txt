@@ -1,0 +1,36 @@
+<template>
+        <div role="tablist">
+          <b-card no-body class="mb-1" :key="index" v-for="(categ , index) in categories">
+            <b-card-header header-tag="header" class="p-1" role="tab">
+              <b-button block v-b-toggle="'collapse-' +index" variant="info">{{ categ.name }}</b-button>
+            </b-card-header>
+            <b-collapse :id="'collapse-' +index" accordion="my-accordion" role="tabpanel">
+              <b-card-body>
+                <b-form-group>
+                  <b-form-checkbox
+                    v-for="option in categ.acts"
+                    v-model="selectedActs"
+                    :key="option.id"
+                    :value="option"
+                  >{{ option.nom }}</b-form-checkbox>
+                </b-form-group>
+              </b-card-body>
+            </b-collapse>
+          </b-card>
+        </div>
+</template>
+
+
+<script>
+    export default {
+        props :[
+
+        ],
+
+        data(){
+            return {
+
+            };
+        },
+    }
+</script>

@@ -1,0 +1,193 @@
+[{
+        "teeth": "38",
+        "formulas": "rac-resid",
+        "color": "white",
+        "coord": "728, 154, 789, 208"
+    },
+    {
+        "teeth": "37",
+        "formulas": "rac-resid",
+        "color": "white",
+        "coord": "661, 155, 728, 206"
+    },
+    {
+        "teeth": "36",
+        "formulas": "rac-resid",
+        "color": "white",
+        "coord": "592, 156, 661, 207"
+    },
+    {
+        "teeth": "35",
+        "formulas": "rac-resid",
+        "color": "white",
+        "coord": "546, 158, 591, 206"
+    },
+    {
+        "teeth": "34",
+        "formulas": "rac-resid",
+        "color": "white",
+        "coord": "500, 159, 546, 208"
+    },
+    {
+        "teeth": "33",
+        "formulas": "rac-resid",
+        "color": "white",
+        "coord": "462, 161, 500, 208"
+    },
+    {
+        "teeth": "32",
+        "formulas": "rac-resid",
+        "color": "white",
+        "coord": "425, 168, 460, 208"
+    },
+    {
+        "teeth": "31",
+        "formulas": "rac-resid",
+        "color": "white",
+        "coord": "390, 173, 425, 210"
+    },
+    {
+        "teeth": "41",
+        "formulas": "rac-resid",
+        "color": "white",
+        "coord": "361, 167, 391, 207"
+    },
+    {
+        "teeth": "42",
+        "formulas": "rac-resid",
+        "color": "white",
+        "coord": "322, 165, 358, 207"
+    },
+    {
+        "teeth": "43",
+        "formulas": "rac-resid",
+        "color": "white",
+        "coord": "284, 157, 323, 207"
+    },
+    {
+        "teeth": "44",
+        "formulas": "rac-resid",
+        "color": "white",
+        "coord": "239, 159, 284, 207"
+    },
+    {
+        "teeth": "45",
+        "formulas": "rac-resid",
+        "color": "white",
+        "coord": "195, 161, 240, 207"
+    },
+    {
+        "teeth": "46",
+        "formulas": "rac-resid",
+        "color": "white",
+        "coord": "126, 150, 197, 207"
+    },
+    {
+        "teeth": "47",
+        "formulas": "rac-resid",
+        "color": "white",
+        "coord": "64, 152, 127, 206"
+    },
+    {
+        "teeth": "48",
+        "formulas": "rac-resid",
+        "color": "white",
+        "coord": "4, 138, 65, 207"
+    },
+    {
+        "teeth": "28",
+        "formulas": "rac-resid",
+        "color": "white",
+        "coord": "734, 112, 778, 145"
+    },
+    {
+        "teeth": "27",
+        "formulas": "rac-resid",
+        "color": "white",
+        "coord": "678, 111, 730, 148"
+    },
+    {
+        "teeth": "26",
+        "formulas": "rac-resid",
+        "color": "white",
+        "coord": "616, 111, 674, 150"
+    },
+    {
+        "teeth": "25",
+        "formulas": "rac-resid",
+        "color": "white",
+        "coord": "575, 111, 614, 151"
+    },
+    {
+        "teeth": "24",
+        "formulas": "rac-resid",
+        "color": "white",
+        "coord": "531, 111, 573, 152"
+    },
+    {
+        "teeth": "23",
+        "formulas": "rac-resid",
+        "color": "white",
+        "coord": "487, 111, 528, 155"
+    },
+    {
+        "teeth": "22",
+        "formulas": "rac-resid",
+        "color": "white",
+        "coord": "444, 111, 483, 154"
+    },
+    {
+        "teeth": "21",
+        "formulas": "rac-resid",
+        "color": "white",
+        "coord": "393, 110, 443, 162"
+    },
+    {
+        "teeth": "11",
+        "formulas": "rac-resid",
+        "color": "white",
+        "coord": "341, 113, 390, 159"
+    },
+    {
+        "teeth": "12",
+        "formulas": "rac-resid",
+        "color": "white",
+        "coord": "303, 112, 338, 148"
+    },
+    {
+        "teeth": "13",
+        "formulas": "rac-resid",
+        "color": "white",
+        "coord": "256, 111, 299, 148"
+    },
+    {
+        "teeth": "14",
+        "formulas": "rac-resid",
+        "color": "white",
+        "coord": "213, 110, 253, 143"
+    },
+    {
+        "teeth": "15",
+        "formulas": "rac-resid",
+        "color": "white",
+        "coord": "170, 109, 212, 142"
+    },
+    {
+        "teeth": "16",
+        "formulas": "rac-resid",
+        "color": "white",
+        "coord": "107, 111, 168, 141"
+    },
+    {
+        "teeth": "17",
+        "formulas": "rac-resid",
+        "color": "white",
+        "coord": "56, 111, 103, 133"
+    },
+    {
+        "teeth": "18",
+        "formulas": "rac-resid",
+        "color": "white",
+        "coord": "8, 111, 49, 129"
+    }
+]

@@ -1,0 +1,193 @@
+[{
+        "teeth": "38",
+        "formulas": "frac-rac",
+        "color": "black",
+        "coord": "780, 225, 750, 225, 782, 212, 742, 210"
+    },
+    {
+        "teeth": "37",
+        "formulas": "frac-rac",
+        "color": "black",
+        "coord": "684, 237, 729, 213, 681, 225, 723, 205"
+    },
+    {
+        "teeth": "36",
+        "formulas": "frac-rac",
+        "color": "black",
+        "coord": "618, 252, 670, 226, 612, 241, 664, 216"
+    },
+    {
+        "teeth": "35",
+        "formulas": "frac-rac",
+        "color": "black",
+        "coord": "573, 259, 593, 236, 568, 239, 592, 222"
+    },
+    {
+        "teeth": "34",
+        "formulas": "frac-rac",
+        "color": "black",
+        "coord": "529, 259, 546, 248, 520, 244, 545, 234"
+    },
+    {
+        "teeth": "33",
+        "formulas": "frac-rac",
+        "color": "black",
+        "coord": "487, 267, 508, 250, 479, 246, 502, 235"
+    },
+    {
+        "teeth": "32",
+        "formulas": "frac-rac",
+        "color": "black",
+        "coord": "456, 265, 438, 252, 456, 242, 430, 235"
+    },
+    {
+        "teeth": "31",
+        "formulas": "frac-rac",
+        "color": "black",
+        "coord": "403, 264, 422, 251, 400, 249, 417, 238"
+    },
+    {
+        "teeth": "41",
+        "formulas": "frac-rac",
+        "color": "black",
+        "coord": "383, 262, 365, 252, 383, 247, 363, 241"
+    },
+    {
+        "teeth": "42",
+        "formulas": "frac-rac",
+        "color": "black",
+        "coord": "330, 259, 352, 253, 329, 244, 351, 237"
+    },
+    {
+        "teeth": "43",
+        "formulas": "frac-rac",
+        "color": "black",
+        "coord": "305, 269, 284, 253, 312, 254, 282, 238"
+    },
+    {
+        "teeth": "44",
+        "formulas": "frac-rac",
+        "color": "black",
+        "coord": "241, 256, 267, 251, 241, 242, 271, 235"
+    },
+    {
+        "teeth": "45",
+        "formulas": "frac-rac",
+        "color": "black",
+        "coord": "221, 251, 202, 240, 228, 230, 201, 223"
+    },
+    {
+        "teeth": "46",
+        "formulas": "frac-rac",
+        "color": "black",
+        "coord": "126, 232, 179, 231, 122, 219, 183, 218"
+    },
+    {
+        "teeth": "47",
+        "formulas": "frac-rac",
+        "color": "black",
+        "coord": "104, 224, 61, 206, 114, 212, 62, 196"
+    },
+    {
+        "teeth": "48",
+        "formulas": "frac-rac",
+        "color": "black",
+        "coord": "5, 199, 45, 202, 3, 185, 53, 194"
+    },
+    {
+        "teeth": "28",
+        "formulas": "frac-rac",
+        "color": "black",
+        "coord": "771, 56, 742, 64, 777, 71, 742, 74"
+    },
+    {
+        "teeth": "27",
+        "formulas": "frac-rac",
+        "color": "black",
+        "coord": "739, 52, 687, 59, 734, 69, 684, 75"
+    },
+    {
+        "teeth": "26",
+        "formulas": "frac-rac",
+        "color": "black",
+        "coord": "677, 55, 623, 61, 679, 71, 620, 79"
+    },
+    {
+        "teeth": "25",
+        "formulas": "frac-rac",
+        "color": "black",
+        "coord": "606, 45, 586, 52, 609, 55, 583, 63"
+    },
+    {
+        "teeth": "24",
+        "formulas": "frac-rac",
+        "color": "black",
+        "coord": "567, 45, 540, 53, 571, 61, 538, 70"
+    },
+    {
+        "teeth": "23",
+        "formulas": "frac-rac",
+        "color": "black",
+        "coord": "525, 37, 498, 44, 524, 51, 498, 56"
+    },
+    {
+        "teeth": "22",
+        "formulas": "frac-rac",
+        "color": "black",
+        "coord": "477, 35, 453, 49, 479, 55, 451, 67"
+    },
+    {
+        "teeth": "21",
+        "formulas": "frac-rac",
+        "color": "black",
+        "coord": "427, 41, 400, 48, 433, 57, 399, 64"
+    },
+    {
+        "teeth": "11",
+        "formulas": "frac-rac",
+        "color": "black",
+        "coord": "379, 35, 347, 47, 380, 55, 346, 64"
+    },
+    {
+        "teeth": "12",
+        "formulas": "frac-rac",
+        "color": "black",
+        "coord": "333, 44, 306, 51, 333, 54, 303, 64"
+    },
+    {
+        "teeth": "13",
+        "formulas": "frac-rac",
+        "color": "black",
+        "coord": "290, 34, 263, 42, 292, 45, 260, 55"
+    },
+    {
+        "teeth": "14",
+        "formulas": "frac-rac",
+        "color": "black",
+        "coord": "237, 33, 214, 41, 245, 48, 217, 59"
+    },
+    {
+        "teeth": "15",
+        "formulas": "frac-rac",
+        "color": "black",
+        "coord": "200, 47, 177, 57, 203, 63, 178, 73"
+    },
+    {
+        "teeth": "16",
+        "formulas": "frac-rac",
+        "color": "black",
+        "coord": "160, 45, 115, 58, 161, 59, 109, 72"
+    },
+    {
+        "teeth": "17",
+        "formulas": "frac-rac",
+        "color": "black",
+        "coord": "106, 44, 60, 53, 106, 56, 55, 64"
+    },
+    {
+        "teeth": "18",
+        "formulas": "frac-rac",
+        "color": "black",
+        "coord": "39, 47, 6, 60, 45, 60, 7, 72"
+    }
+]

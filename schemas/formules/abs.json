@@ -1,0 +1,385 @@
+[{
+        "teeth": "38",
+        "formulas": "abs",
+        "color": "#dd8087",
+        "coord": "736, 203, 789, 248"
+    },
+    {
+        "teeth": "37",
+        "formulas": "abs",
+        "color": "#dd8087",
+        "coord": "675, 205, 736, 267"
+    },
+    {
+        "teeth": "36",
+        "formulas": "abs",
+        "color": "#dd8087",
+        "coord": "607, 207, 673, 273"
+    },
+    {
+        "teeth": "35",
+        "formulas": "abs",
+        "color": "#dd8087",
+        "coord": "556, 208, 603, 284"
+    },
+    {
+        "teeth": "34",
+        "formulas": "abs",
+        "color": "#dd8087",
+        "coord": "514, 206, 550, 293"
+    },
+    {
+        "teeth": "33",
+        "formulas": "abs",
+        "color": "#dd8087",
+        "coord": "470, 207, 510, 295"
+    },
+    {
+        "teeth": "32",
+        "formulas": "abs",
+        "color": "#dd8087",
+        "coord": "432, 205, 462, 295"
+    },
+    {
+        "teeth": "31",
+        "formulas": "abs",
+        "color": "#dd8087",
+        "coord": "396, 205, 423, 301"
+    },
+    {
+        "teeth": "41",
+        "formulas": "abs",
+        "color": "#dd8087",
+        "coord": "360, 207, 388, 307"
+    },
+    {
+        "teeth": "42",
+        "formulas": "abs",
+        "color": "#dd8087",
+        "coord": "324, 206, 355, 302"
+    },
+    {
+        "teeth": "43",
+        "formulas": "abs",
+        "color": "#dd8087",
+        "coord": "276, 205, 318, 309"
+    },
+    {
+        "teeth": "44",
+        "formulas": "abs",
+        "color": "#dd8087",
+        "coord": "237, 205, 276, 294"
+    },
+    {
+        "teeth": "45",
+        "formulas": "abs",
+        "color": "#dd8087",
+        "coord": "193, 205, 230, 285"
+    },
+    {
+        "teeth": "46",
+        "formulas": "abs",
+        "color": "#dd8087",
+        "coord": "122, 207, 183, 261"
+    },
+    {
+        "teeth": "47",
+        "formulas": "abs",
+        "color": "#dd8087",
+        "coord": "53, 206, 113, 252"
+    },
+    {
+        "teeth": "48",
+        "formulas": "abs",
+        "color": "#dd8087",
+        "coord": "4, 205, 43, 230"
+    },
+    {
+        "teeth": "28",
+        "formulas": "abs",
+        "color": "#dd8087",
+        "coord": "734, 41, 780, 111"
+    },
+    {
+        "teeth": "27",
+        "formulas": "abs",
+        "color": "#dd8087",
+        "coord": "682, 39, 734, 111"
+    },
+    {
+        "teeth": "26",
+        "formulas": "abs",
+        "color": "#dd8087",
+        "coord": "622, 36, 676, 112"
+    },
+    {
+        "teeth": "25",
+        "formulas": "abs",
+        "color": "#dd8087",
+        "coord": "578, 25, 616, 111"
+    },
+    {
+        "teeth": "24",
+        "formulas": "abs",
+        "color": "#dd8087",
+        "coord": "535, 21, 570, 111"
+    },
+    {
+        "teeth": "23",
+        "formulas": "abs",
+        "color": "#dd8087",
+        "coord": "489, 1, 529, 111"
+    },
+    {
+        "teeth": "22",
+        "formulas": "abs",
+        "color": "#dd8087",
+        "coord": "448, 3, 484, 112"
+    },
+    {
+        "teeth": "21",
+        "formulas": "abs",
+        "color": "#dd8087",
+        "coord": "396, 3, 438, 112"
+    },
+    {
+        "teeth": "11",
+        "formulas": "abs",
+        "color": "#dd8087",
+        "coord": "344, 3, 386, 111"
+    },
+    {
+        "teeth": "12",
+        "formulas": "abs",
+        "color": "#dd8087",
+        "coord": "301, 0, 338, 112"
+    },
+    {
+        "teeth": "13",
+        "formulas": "abs",
+        "color": "#dd8087",
+        "coord": "255, 1, 299, 111"
+    },
+    {
+        "teeth": "14",
+        "formulas": "abs",
+        "color": "#dd8087",
+        "coord": "214, 17, 250, 112"
+    },
+    {
+        "teeth": "15",
+        "formulas": "abs",
+        "color": "#dd8087",
+        "coord": "174, 27, 209, 112"
+    },
+    {
+        "teeth": "16",
+        "formulas": "abs",
+        "color": "#dd8087",
+        "coord": "108, 28, 169, 111"
+    },
+    {
+        "teeth": "17",
+        "formulas": "abs",
+        "color": "#dd8087",
+        "coord": "55, 25, 102, 111"
+    },
+    {
+        "teeth": "18",
+        "formulas": "abs",
+        "color": "#dd8087",
+        "coord": "5, 30, 50, 111"
+    },
+    {
+        "teeth": "38",
+        "formulas": "abs",
+        "color": "white",
+        "coord": "728, 154, 789, 208"
+    },
+    {
+        "teeth": "37",
+        "formulas": "abs",
+        "color": "white",
+        "coord": "661, 155, 728, 206"
+    },
+    {
+        "teeth": "36",
+        "formulas": "abs",
+        "color": "white",
+        "coord": "592, 156, 661, 207"
+    },
+    {
+        "teeth": "35",
+        "formulas": "abs",
+        "color": "white",
+        "coord": "546, 158, 591, 206"
+    },
+    {
+        "teeth": "34",
+        "formulas": "abs",
+        "color": "white",
+        "coord": "500, 159, 546, 208"
+    },
+    {
+        "teeth": "33",
+        "formulas": "abs",
+        "color": "white",
+        "coord": "462, 161, 500, 208"
+    },
+    {
+        "teeth": "32",
+        "formulas": "abs",
+        "color": "white",
+        "coord": "425, 168, 460, 208"
+    },
+    {
+        "teeth": "31",
+        "formulas": "abs",
+        "color": "white",
+        "coord": "390, 173, 425, 210"
+    },
+    {
+        "teeth": "41",
+        "formulas": "abs",
+        "color": "white",
+        "coord": "361, 167, 391, 207"
+    },
+    {
+        "teeth": "42",
+        "formulas": "abs",
+        "color": "white",
+        "coord": "322, 165, 358, 207"
+    },
+    {
+        "teeth": "43",
+        "formulas": "abs",
+        "color": "white",
+        "coord": "284, 157, 323, 207"
+    },
+    {
+        "teeth": "44",
+        "formulas": "abs",
+        "color": "white",
+        "coord": "239, 159, 284, 207"
+    },
+    {
+        "teeth": "45",
+        "formulas": "abs",
+        "color": "white",
+        "coord": "195, 161, 240, 207"
+    },
+    {
+        "teeth": "46",
+        "formulas": "abs",
+        "color": "white",
+        "coord": "126, 150, 197, 207"
+    },
+    {
+        "teeth": "47",
+        "formulas": "abs",
+        "color": "white",
+        "coord": "64, 152, 127, 206"
+    },
+    {
+        "teeth": "48",
+        "formulas": "abs",
+        "color": "white",
+        "coord": "4, 138, 65, 207"
+    },
+    {
+        "teeth": "28",
+        "formulas": "abs",
+        "color": "white",
+        "coord": "734, 112, 778, 145"
+    },
+    {
+        "teeth": "27",
+        "formulas": "abs",
+        "color": "white",
+        "coord": "678, 111, 730, 148"
+    },
+    {
+        "teeth": "26",
+        "formulas": "abs",
+        "color": "white",
+        "coord": "616, 111, 674, 150"
+    },
+    {
+        "teeth": "25",
+        "formulas": "abs",
+        "color": "white",
+        "coord": "575, 111, 614, 151"
+    },
+    {
+        "teeth": "24",
+        "formulas": "abs",
+        "color": "white",
+        "coord": "531, 111, 573, 152"
+    },
+    {
+        "teeth": "23",
+        "formulas": "abs",
+        "color": "white",
+        "coord": "487, 111, 528, 155"
+    },
+    {
+        "teeth": "22",
+        "formulas": "abs",
+        "color": "white",
+        "coord": "444, 111, 483, 154"
+    },
+    {
+        "teeth": "21",
+        "formulas": "abs",
+        "color": "white",
+        "coord": "393, 110, 443, 162"
+    },
+    {
+        "teeth": "11",
+        "formulas": "abs",
+        "color": "white",
+        "coord": "341, 113, 390, 159"
+    },
+    {
+        "teeth": "12",
+        "formulas": "abs",
+        "color": "white",
+        "coord": "303, 112, 338, 148"
+    },
+    {
+        "teeth": "13",
+        "formulas": "abs",
+        "color": "white",
+        "coord": "256, 111, 299, 148"
+    },
+    {
+        "teeth": "14",
+        "formulas": "abs",
+        "color": "white",
+        "coord": "213, 110, 253, 143"
+    },
+    {
+        "teeth": "15",
+        "formulas": "abs",
+        "color": "white",
+        "coord": "170, 109, 212, 142"
+    },
+    {
+        "teeth": "16",
+        "formulas": "abs",
+        "color": "white",
+        "coord": "107, 111, 168, 141"
+    },
+    {
+        "teeth": "17",
+        "formulas": "abs",
+        "color": "white",
+        "coord": "56, 111, 103, 133"
+    },
+    {
+        "teeth": "18",
+        "formulas": "abs",
+        "color": "white",
+        "coord": "8, 111, 49, 129"
+    }
+]

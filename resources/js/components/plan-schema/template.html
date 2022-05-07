@@ -1,0 +1,109 @@
+<div>
+    <b-tab title="Plan" lazy active title-link-class="h6" v-if="user.role_id == 1 || user.role_id == 2">
+        <div class="text-center" v-show="isNotLoaded">
+            <b-spinner variant="primary" label="Text Centered"></b-spinner>
+        </div>
+        <div class="row border-bottom border-alternate pb-1" v-show="!isNotLoaded">
+            <div class="col-md-6" v-if="isPlan">
+                <payment-modal ref="payment_modal" button-title="Versement" :patient="patient"
+                    @payment-done="onPaymentDone"></payment-modal>
+                <!-- ------------------------ "Actes fait" Section ------------------------- -->
+                <b-button size="sm" variant="success"   :hidden="btnDone" class="pull-right mb-1"
+                    v-b-modal.modal-acts-done>
+                    <b-icon icon="check-circle-fill" aria-hidden="true"></b-icon>
+                    Actes fait
+                </b-button>
+                <!-- Acts done Model -->
+                <b-modal id="modal-acts-done" title="Liste des Actes fait" size="lg" ok-title="Fermer" :ok-only="onlyOk"
+                    header-bg-variant="success" header-text-variant="white">
+                    <b-table bordered responsive="sm" small head-variant="light" :items="actsDoneItems"
+                        :fields="actsDoneFields">
+                        <template v-slot:cell(index)="data">
+                            <!-- data = acceptedQuotation -->
+                            {{ data.index + 1 }}
+                        </template>
+                        <template v-slot:cell(act)="data">{{
+                            data.value.nom
+                            }}</template>
+                        <template v-slot:cell(price)="data">
+                            {{ data.item.price }} DA
+                        </template>
+                    </b-table>
+                </b-modal>
+                <!-- END Acts done Model -->
+
+                <!-- ---------------------- "End Actes fait" Section ----------------------- -->
+
+                <!-- ----------------------------- PLan table ------------------------------ -->
+                <div>
+                    <b-table bordered responsive="sm" small head-variant="light" :items="acceptedQuotation"
+                        :fields="acceptedQuotationFields">
+                        <template v-slot:cell(index)="data">
+                            <!-- data = acceptedQuotation -->
+                            {{ data.index + 1 }}
+                        </template>
+                        <template v-slot:cell(act)="data">{{ data.value.nom }}
+                        </template>
+                        <template v-slot:cell(price)="data">
+                            <b-form-group id="priceid-1" description="Tapez sur Entrée pour modifier le prix."
+                                v-if="edit == data.item.id">
+                                <b-form-input type="text" v-model="data.item.price" @keyup.enter="
+                                        handlePriceOnKeyUpEnterEvent(
+                                            $event,
+                                            data
+                                        )
+                                    " trim></b-form-input>
+                            </b-form-group>
+                            <p v-else @click="edit = data.item.id">
+                                <b class="text-info">
+                                    {{ data.item.price }} DA
+                                </b>
+                            </p>
+                        </template>
+                        <template v-slot:cell(state)="data">
+                            <!-- data = acceptedQuotation -->
+                            <b-badge pill v-if="data.item.state == 'En cours'" variant="secondary"
+                                @click="handleState(data.item)" style="cursor:pointer">{{ data.item.state }}</b-badge>
+                            <b-badge pill v-else variant="success" @click="handleState(data.item)"
+                                style="cursor:pointer">{{
+                                data.item.state }}</b-badge>
+                        </template>
+                    </b-table>
+                </div>
+                <!-- --------------------------- End Table Plan ---------------------------- -->
+
+                <!-- Display Informations about quotation  -->
+                <b-row class="m-0">
+                    <b-col sm="12">
+                        <h5 class="text-center font-weight-bold alert-dark">
+                            TOTAL :
+                            <span>{{ display_total }} DA</span>
+                        </h5>
+                        <!-- <p
+                            class="text-center font-weight-bold alert-info border-bottom border-alternate"
+                        >
+                            Total accepté :
+                            <span>{{ total_accept }} DA</span>
+                        </p> -->
+                    </b-col>
+                </b-row>
+                <!-- End Display Informations about quotation -->
+            </div>
+            <div class="row col-md-6 align-items-center" v-else>
+                <div class="col">
+                    <p class="h1 mb-2 text-center text-secondary">
+                        Commencer par sélectionner les actes à faire
+                        <b-icon icon="arrow-right" class="rounded-circle bg-success p-2 ml-4" variant="light"
+                            animation="cylon" font-scale="1.5"></b-icon>
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <schema-component :selectedTooth="selectedTooth" :patient="patient" isToothVisible="true" ref="schema"
+                    img_id="plan-image" schema_id="plan-schema" p_class="mb-2"></schema-component>
+                <category ref="categories" @select-acts="addActsToPlan"></category>
+            </div>
+        </div>
+    </b-tab>
+</div>
