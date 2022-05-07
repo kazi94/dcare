@@ -1,0 +1,241 @@
+        .add_button_set {
+            background-color: #ffffff;
+        }
+
+        .dhx_menu_icon.icon_validate {
+            background-image: url('../plugins/scheduler/codebase/imgs_dhx_material/controls.png');
+            background-position-x: -82px;
+            color : green;
+        }
+
+        .dhx_menu_icon.icon_abandon {
+            background-image: url('../plugins/scheduler/codebase/imgs_dhx_material/controls.png');
+            background-position-x: -62px;
+            color:gray;
+        }
+
+        .dhx_menu_icon.icon_report {
+            background-image: url('../plugins/scheduler/codebase/imgs_dhx_material/controls.png');
+            background-position-x: -127px;
+            color: orange;
+        }
+        .dhx_cal_qi_controls div.dhx_qi_big_icon.icon_abandon {
+            display: none;
+        }
+        .dhx_cal_qi_controls div.dhx_qi_big_icon.icon_validate {
+            display: none;
+        }
+        .dhx_cal_qi_controls div.dhx_qi_big_icon.icon_report {
+            display: none;
+        }
+
+        .dhtmlx-toast-success {
+            font-weight: bold !important;
+            color: green !important;
+            background-color: green !important;
+        }
+        .dhtmlx-toast-report {
+            font-weight: bold !important;
+            color: orange !important;
+            background-color: white !important;
+        }
+        .dhx_qi_big_icon.icon_invalidate {
+            color: #ff584c;
+        }
+
+        .bg_event {
+            background-color: #ff584c !important;
+        }
+
+        /*event in day or week view*/
+        .dhx_cal_event.past_event div {
+            background-color: purple !important;
+            color: white !important;
+        }
+
+        /*multi-day event in month view*/
+        .dhx_cal_event_line.past_event {
+            background-color: purple !important;
+            color: white !important;
+        }
+
+        /*event with fixed time, in month view*/
+        .dhx_cal_event_clear.past_event {
+            color: purple !important;
+        }
+
+        .sch-d-head {
+            position: Relative;
+            left: 0;
+            top: 0;
+            height: 30px;
+            width: 100%;
+            font-size: 0;
+            text-align: center;
+        }
+
+        .sch-d-head-inside {
+            font-size: 16px;
+            line-height: 0;
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        .container-center:before,
+        .elem-center,
+        .icon-text__icon:before {
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        .filters_wrapper {
+            font: 500 14px Roboto;
+        }
+
+        .filters_wrapper span {
+            font-weight: bold;
+            padding-right: 5px;
+            color: rgba(0, 0, 0, 0.7);
+        }
+
+        .filters_wrapper label {
+            padding-right: 3px;
+        }
+
+        .add_event_button {
+            position: absolute;
+            width: 55px;
+            height: 55px;
+            background: #ff5722;
+            border-radius: 50px;
+            bottom: 40px;
+            right: 55px;
+            box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.3);
+            z-index: 5;
+            cursor: pointer;
+        }
+
+        .add_event_button:after {
+            background: #000;
+            border-radius: 2px;
+            color: #FFF;
+            content: attr(data-tooltip);
+            margin: 16px 0 0 -137px;
+            opacity: 0;
+            padding: 4px 9px;
+            position: absolute;
+            visibility: visible;
+            font-family: "Roboto";
+            font-size: 14px;
+            visibility: hidden;
+            transition: all .5s ease-in-out;
+        }
+
+        .add_event_button:hover {
+            background: #ff774c;
+        }
+
+        .add_event_button:hover:after {
+            opacity: 0.55;
+            visibility: visible;
+        }
+
+        .add_event_button span:before {
+            content: "";
+            background: #fff;
+            height: 16px;
+            width: 2px;
+            position: absolute;
+            left: 26px;
+            top: 20px;
+        }
+
+        .add_event_button span:after {
+            content: "";
+            height: 2px;
+            width: 16px;
+            background: #fff;
+            position: absolute;
+            left: 19px;
+            top: 27px;
+        }
+
+        @media only screen and (max-width: 1000px) {
+            .add_event_button {
+                bottom: 5vw;
+                right: 5vw;
+            }
+        }
+
+        /* Custom event box */
+        /* the background color for the whole container and its border*/
+        .dhx_cal_event.my_event {
+            background-color: red !important;
+            /* border: 1px solid #778899;
+                            overflow: hidden; */
+        }
+
+        .dhx_cal_event_clear.my_event {
+            height: 22px;
+        }
+
+        /* disabling the default color for the select menu */
+        .dhx_cal_select_menu.my_event div {
+            border: 0;
+            background-color: transparent;
+            color: black;
+        }
+
+        /* styles for the event content */
+        .dhx_cal_event.my_event .my_event_body {
+            padding-top: 3px;
+            padding-left: 5px;
+        }
+
+        /* event's date information */
+        .my_event .event_date {
+            font-weight: bold;
+            padding-right: 5px;
+        }
+
+        /* event's resizing section */
+        .my_event_resize {
+            height: 3px;
+            position: absolute;
+            bottom: -1px;
+        }
+
+        /* event's move section */
+        .my_event_move {
+            position: absolute;
+            top: 0;
+            height: 10px;
+            cursor: pointer;
+        }
+
+        /* END custrom event box */
+        /* Important !!! */
+        .dhx_scale_hour {
+            line-height: normal;
+        }
+
+        .dhx_cal_event {
+            z-index: 1;
+            cursor: pointer;
+        }
+
+        .highlighted_timespan {
+            background-color: #87cefa;
+            opacity: 0.5;
+            filter: alpha(opacity=50);
+            cursor: pointer;
+            z-index: 0;
+        }
+
+        .dhx_cal_month_event {
+            color: white !important;
+        }
+
+        .highlighted_timespan:hover {
+            background-color: #90ee90;
+        }
