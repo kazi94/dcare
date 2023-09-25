@@ -1,10 +1,15 @@
-# ABOUT DCARE
+### HOW TO INSTALL
+    1. Clone the repository `git clone`
+    2. Copy .env.example file to .env and edit database credentials there
+    3. Run `composer install`
+    4. Run `php artisan key:generate`
 
-Give a description here...
+### PART OF VUEJS PROJECTS
 
-## FEATURES
+    1. Run `npm install`
+    2. Run `npm run dev`
 
-text here the features...
+- That's it: launch the main URL and login with default credentials <admin@email.com> - password <123456789>
 
 ## CHANGELOGS
 
