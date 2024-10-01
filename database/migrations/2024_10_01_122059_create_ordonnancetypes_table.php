@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class Create[TableName]Table extends Migration
+class CreateordonnancetypesTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,7 +13,10 @@ class Create[TableName]Table extends Migration
      */
     public function up()
     {
-        [TableUp]
+        Schema::create('ordonnancetypes', function (Blueprint $table) {
+            $table->increments('id');
+            $table->string('nom', 50)->default('Ordonnance type');
+        });
     }
 
     /**
@@ -23,6 +26,6 @@ class Create[TableName]Table extends Migration
      */
     public function down()
     {
-        [TableDown]
+        Schema::dropIfExists('ordonnancetypes');
     }
 }
