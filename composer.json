@@ -16,6 +16,7 @@
         "sentry/sentry-laravel": "^2.10"
     },
     "require-dev": {
+        "bennett-treptow/laravel-migration-generator": "^4.4",
         "beyondcode/laravel-dump-server": "^1.0",
         "filp/whoops": "^2.0",
         "fzaninotto/faker": "^1.4",

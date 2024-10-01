@@ -45,7 +45,7 @@ class OrdonnanceTypeController extends Controller
     {
 
         $ordonnance = new Ordonnancetype;
-        $ordonnance->nom       = ucfirst($request->nom);
+        $ordonnance->nom = ucfirst($request->nom);
         $ordonnance->save();
 
         foreach ($request->medicaments as $line) {
@@ -94,7 +94,7 @@ class OrdonnanceTypeController extends Controller
     public function update(Request $request, $id)
     {
         $ordonnance = Ordonnancetype::find($id);
-        $ordonnance->nom       = ucfirst($request->nom);
+        $ordonnance->nom = ucfirst($request->nom);
         $ordonnance->save();
 
 
@@ -112,7 +112,7 @@ class OrdonnanceTypeController extends Controller
      * Add lignes Prescriptions
      *
      * @return void
-     * @author 
+     * @author
      **/
     private function addLignesOrdonnanceType($id, $medicaments)
     {
@@ -170,7 +170,7 @@ class OrdonnanceTypeController extends Controller
 
         $ordonnances->prepend([
             'value' => null,
-            'text'  => 'Veuillez sélectionner une ordonnance',
+            'text' => 'Veuillez sélectionner une ordonnance',
             'medicaments' => null
         ]);
 

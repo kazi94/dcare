@@ -59,7 +59,7 @@ class ActController extends Controller
 
                 // Get Formes IDS ASSOC TO FORMULA NAME
                 $formulas_ids = $this->getFormesIDByName($forme['formulas']);
-
+                
                 return [
                     'formulas' => $formulas_ids,
                     'color' => $forme['color']

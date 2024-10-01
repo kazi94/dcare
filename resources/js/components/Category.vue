@@ -141,21 +141,8 @@ import VueInstant from "vue-instant";
 import "vue-instant/dist/vue-instant.css";
 Vue.use(VueInstant);
 export default {
-    watch: {
-        value: function (newValue, oldValue) {
-            const searchAct = newValue;
-            this.acts.forEach((act) => {
-                if (act.nom == searchAct) {
-                    // check if searched act don't exist in selected acts array
-                    if (!this.selectedActs.some((act) => act.nom == searchAct))
-                        this.selectedActs.push(act);
-                }
-            });
-        },
-        selectedActs: function (nVal) {
-            this.validatedActs = nVal;
-        },
-    },
+
+   
     props: [],
     components: {
         // VueInstant

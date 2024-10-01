@@ -29,7 +29,7 @@ class QuotationRepo
     }
     /**
      * Create or Update an existing plan
-     * 
+     *
      * @param object $data
      * @return \App\Models\Devis
      */

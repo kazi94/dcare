@@ -104,7 +104,7 @@ class LigneDevisRepo
      * group by the state of the act
      * @param string $state
      * @author Kazi Aouel Sid Ahmed <kazi.sidou.94@gmail.com>
-     * @return 
+     * @return
      */
     public function countActsOfTheCurrentMonthByState($state = "fait")
     {
@@ -124,7 +124,7 @@ class LigneDevisRepo
      * @param string $state
      * @param array $period
      * @author Kazi Aouel Sid Ahmed <kazi.sidou.94@gmail.com>
-     * @return 
+     * @return
      */
     public function countActsBetweenPeriodByState($state = "fait", $period)
     {
@@ -138,10 +138,10 @@ class LigneDevisRepo
             )->get();
     }
     /**
-     * Calculate sum of acts group by category 
+     * Calculate sum of acts group by category
      * for the current month
      * @author Kazi Aouel Sid Ahmed <kazi.sidou.94@gmail.com>
-     * @return 
+     * @return
      */
     public function sumActsPerCategoryOfTheCurrentMonth($state)
     {
@@ -162,7 +162,7 @@ class LigneDevisRepo
      * between a range of period
      * @param array $period
      * @author Kazi Aouel Sid Ahmed <kazi.sidou.94@gmail.com>
-     * @return 
+     * @return
      */
     public function sumActsPerCategoryBetweenPeriod($state, $period)
     {
@@ -178,10 +178,10 @@ class LigneDevisRepo
             )->get();
     }
     /**
-     * Calculate sum of acts  
+     * Calculate sum of acts
      * for the current month
      * @author Kazi Aouel Sid Ahmed <kazi.sidou.94@gmail.com>
-     * @return 
+     * @return
      */
     public function sumActsOfTheCurrentMonth($state)
     {
@@ -199,11 +199,11 @@ class LigneDevisRepo
 
 
     /**
-     * Calculate sum of acts 
+     * Calculate sum of acts
      * between a range of period
      * @param array $period
      * @author Kazi Aouel Sid Ahmed <kazi.sidou.94@gmail.com>
-     * @return 
+     * @return
      */
     public function sumActsBetweenPeriod($state, $period)
     {
