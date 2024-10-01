@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class Createsp_specialiteTable extends Migration
+class CreateSpSpecialiteTable extends Migration
 {
     /**
      * Run the migrations.
@@ -23,7 +23,7 @@ class Createsp_specialiteTable extends Migration
             $table->string('SP_NOM', 100);
             $table->string('SP_DOSE', 100)->nullable();
             $table->string('SP_COPIE', 10)->nullable();
-            
+
             ;
         });
     }

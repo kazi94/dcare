@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class Createpre_presentationTable extends Migration
+class CreatePrePresentationTable extends Migration
 {
     /**
      * Run the migrations.
@@ -41,7 +41,7 @@ class Createpre_presentationTable extends Migration
             $table->string('PRE_LIB_CEPS', 750)->nullable();
             $table->string('PRE_ADMIN', 600)->nullable();
             $table->dateTime('PRE_DATEMJ')->nullable();
-            
+
             $table->foreign('PRE_SP_CODE_FK', 'FK_pre_presentation_sp_specialite')->references('SP_CODE_SQ_PK')->on('sp_specialite')->onDelete('cascade')->onUpdate('cascade');
         });
     }

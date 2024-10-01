@@ -20,10 +20,6 @@ class CreateschemasTable extends Migration
             $table->string('type', 50)->nullable();
             $table->unsignedInteger('devis_id')->nullable();
             $table->unsignedInteger('created_by')->nullable();
-            
-            $table->foreign('devis_id', 'FK_schemas_devis')->references('id')->on('devis')->onDelete('cascade')->onUpdate('cascade');
-            $table->foreign('patient_id', 'FK_schemas_patients')->references('id')->on('patients')->onDelete('cascade')->onUpdate('cascade');
-            $table->foreign('created_by', 'FK_schemas_users')->references('id')->on('users')->onDelete('set NULL')->onUpdate('cascade');
         });
     }
 
