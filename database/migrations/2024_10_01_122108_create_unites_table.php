@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class Create[TableName]Table extends Migration
+class CreateunitesTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,7 +13,11 @@ class Create[TableName]Table extends Migration
      */
     public function up()
     {
-        [TableUp]
+        Schema::create('unites', function (Blueprint $table) {
+            $table->integer('id')->primary();
+            $table->string('unite_nom', 50);
+            $table->string('equiv', 50)->nullable();
+        });
     }
 
     /**
@@ -23,6 +27,6 @@ class Create[TableName]Table extends Migration
      */
     public function down()
     {
-        [TableDown]
+        Schema::dropIfExists('unites');
     }
 }
