@@ -3,6 +3,7 @@
 /vendor
 /.vscode
 /.idea
+/storage
 # gitignore files
 /public/0.js
 /public/1.js

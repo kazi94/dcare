@@ -4,11 +4,14 @@ namespace App\Models;
 
 use DB;
 
+use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Carbon\Carbon;
 
 class Appointement extends Model
 {
+    use HasFactory;
+
     protected $guarded = [];
 
     protected $appends = ['date_appointement', 'hour_appointement', 'remaining_days', 'waiting_time', 'is_delayed'];

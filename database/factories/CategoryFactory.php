@@ -1,15 +1,28 @@
 <?php
 
-/** @var \Illuminate\Database\Eloquent\Factory $factory */
+namespace Database\Factories;
 
-use App\Models\Category;
-use Faker\Generator as Faker;
+use Illuminate\Database\Eloquent\Factories\Factory;
 
-$factory->define(Category::class, function (Faker $faker) {
-    $colors = ['#EC7C26', "#18171C", "#CAC4B0", "#F3A505", "#1C542D", "#102C54"];
+/**
+ * @extends \Illuminate\Database\Eloquent\Factories\Factory<\App\Models\Model>
+ */
+class CategoryFactory extends Factory
+{
+    /**
+     * Define the model's default state.
+     *
+     * @return array
+     */
+    public function definition()
+    {
+        $faker = \Faker\Factory::create();
 
-    return [
-        'name' => $faker->word(),
-        'color' => $faker->hexcolor()
-    ];
-});
+        $colors = ['#EC7C26', "#18171C", "#CAC4B0", "#F3A505", "#1C542D", "#102C54"];
+
+        return [
+            'name' => $faker->name,
+            'color' => $faker->hexcolor()
+        ];
+    }
+}

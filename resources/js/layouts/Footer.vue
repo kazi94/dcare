@@ -10,6 +10,10 @@
                                 <a href="https://www.hic-sante.com"
                                     >Kazi Aouel Sid Ahmed</a
                                 >
+
+                                <button class="btn btn-primary">
+                                    <a href="https://dcare.canny.io/">Give us a feedback</a>
+                                </button>
                             </li>
                         </ul>
                     </div>

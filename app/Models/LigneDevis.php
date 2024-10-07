@@ -2,10 +2,12 @@
 
 namespace App\Models;
 
+use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
 class LigneDevis extends Model
 {
+    use HasFactory;
     public $table = "lignedevis";
 
     protected $fillable = ['devis_id', 'acte_id', 'num_dent', 'state', 'accepted_state', 'price', 'created_at', 'updated_at', 'lock'];

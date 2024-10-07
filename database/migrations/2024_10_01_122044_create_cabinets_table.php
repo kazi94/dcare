@@ -14,9 +14,9 @@ class CreatecabinetsTable extends Migration
     public function up()
     {
         Schema::create('cabinets', function (Blueprint $table) {
-            $table->integer('id')->primary();
+            $table->increments('id');
             $table->string('nom', 50)->nullable();
-            $table->string('adresse', 50)->nullable();
+            $table->string('adresse', 150)->nullable();
             $table->string('logo')->nullable();
             $table->timestamps();
         });

@@ -15,7 +15,7 @@ class CreateActeFormuleTable extends Migration
     {
         Schema::create('acte_formule', function (Blueprint $table) {
             $table->unsignedInteger('acte_id');
-            $table->integer('formule_id');
+            $table->unsignedInteger('formule_id');
             $table->string('color', 15)->nullable();
 
             $table->foreign('acte_id', 'FK_formule_acte_actes')->references('id')->on('actes')->onDelete('cascade')->onUpdate('cascade');

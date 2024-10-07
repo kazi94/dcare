@@ -15,12 +15,12 @@ class CreatetraitementsTable extends Migration
     {
         Schema::create('traitements', function (Blueprint $table) {
             $table->unsignedInteger('schema_id');
-            $table->integer('formule_id');
+            $table->unsignedInteger('formule_id');
             $table->integer('teeth')->nullable();
             $table->timestamps();
             $table->unsignedInteger('created_by')->nullable();
             $table->unsignedInteger('updated_by')->nullable();
-            
+
             $table->primary(['schema_id', 'formule_id']);
             $table->foreign('formule_id', 'traitements_ibfk_1')->references('id')->on('formules')->onDelete('cascade')->onUpdate('cascade');
             $table->foreign('schema_id', 'traitements_ibfk_2')->references('id')->on('schemas')->onDelete('cascade')->onUpdate('cascade');

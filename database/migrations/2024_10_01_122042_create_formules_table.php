@@ -14,7 +14,7 @@ class CreateformulesTable extends Migration
     public function up()
     {
         Schema::create('formules', function (Blueprint $table) {
-            $table->integer('id')->primary();
+            $table->increments('id');
             $table->integer('teeth');
             $table->string('formulas', 20)->nullable();
             $table->text('coord');

@@ -24,12 +24,12 @@ class CreateusersTable extends Migration
             $table->string('api_token', 80)->nullable()->unique('users_api_token_unique');
             $table->rememberToken();
             $table->timestamps();
-            $table->integer('cabinet_id')->nullable();
+            $table->unsignedInteger('cabinet_id')->nullable();
             $table->unsignedInteger('role_id')->nullable();
             $table->text('last_login')->nullable();
             $table->text('current_login')->nullable();
             $table->string('color', 15)->nullable();
-            
+
             $table->foreign('cabinet_id', 'FK_users_cabinets')->references('id')->on('cabinets')->onDelete('set NULL')->onUpdate('cascade');
             $table->foreign('role_id', 'FK_users_roles')->references('id')->on('roles')->onUpdate('cascade');
         });

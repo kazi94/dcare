@@ -15,7 +15,7 @@ class CreateFormuleLigneDevisTable extends Migration
     {
         Schema::create('formule_ligne_devis', function (Blueprint $table) {
             $table->unsignedInteger('ligne_devis_id')->nullable();
-            $table->integer('formule_id')->nullable();
+            $table->unsignedInteger('formule_id')->nullable();
             $table->string('color', 15)->nullable();
 
             $table->foreign('formule_id', 'FK__formules')->references('id')->on('formules')->onDelete('cascade')->onUpdate('cascade');
